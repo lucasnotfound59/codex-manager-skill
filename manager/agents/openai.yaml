@@ -1,0 +1,13 @@
+interface:
+  display_name: manager
+  short_description: 纯经理协作：评估难度、选择模型与思考深度，委派规划和开发，持续汇报并验收
+  default_prompt: 使用 $manager 负责这项任务：先判断程度并选择合适的模型与思考 effort，再委派规划、实现、测试和审查；你只负责管理、进度汇报与验收，不亲自写代码或项目计划。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
